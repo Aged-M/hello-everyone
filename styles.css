@@ -1,0 +1,11 @@
+body{font-family:Arial,sans-serif;background:#f5f7fb;margin:0}
+.container{max-width:980px;margin:2rem auto;padding:1rem}
+form{display:flex;gap:.75rem;background:#fff;padding:1rem;border-radius:10px}
+input{flex:1;padding:.7rem}
+button{padding:.7rem 1rem;background:#1f56ff;color:#fff;border:none;border-radius:8px}
+#results{margin-top:1rem}
+.hidden{display:none}
+pre, .chart-card, #news{background:#fff;padding:1rem;border-radius:10px}
+.charts{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1rem}
+.chart-card{height:260px}
+#news li{margin-bottom:.7rem}
