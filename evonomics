@@ -1,0 +1,24 @@
+econ-ai-app/
+│
+├── backend/
+│   ├── main.py
+│   ├── fred_service.py
+│   ├── bls_service.py
+│   ├── worldbank_service.py
+│   ├── ai_explainer.py
+│   ├── news_service.py
+│   └── requirements.txt
+│
+├── frontend/
+│   ├── package.json
+│   ├── public/
+│   └── src/
+│       ├── App.js
+│       ├── components/
+│       │   ├── SearchBar.js
+│       │   ├── ChartPanel.js
+│       │   ├── Explanation.js
+│       │   └── NewsPanel.js
+│       └── api.js
+│
+└── README.md
