@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Evonomics</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <main class="container">
+      <h1>Evonomics</h1>
+      <p>Ask any consumer-economics question for an unbiased summary, recent trends, and latest news.</p>
+
+      <form id="ask-form">
+        <input id="question" required minlength="5" placeholder="Why are food prices rising faster than incomes?" />
+        <button>Analyze</button>
+      </form>
+
+      <div id="status"></div>
+
+      <section id="results" class="hidden">
+        <h2>Unbiased Explanation</h2>
+        <pre id="explanation"></pre>
+
+        <h2>Trend Graphs</h2>
+        <div id="charts" class="charts"></div>
+
+        <h2>Recent News Reports</h2>
+        <ul id="news"></ul>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
